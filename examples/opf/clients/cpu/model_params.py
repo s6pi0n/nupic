@@ -38,7 +38,7 @@ MODEL_PARAMS = {
             # if > 0: sensor region will print out on screen what it's sensing
             # at each step 0: silent; >=1: some info; >=2: more info;
             # >=3: even more info (see compute() in py/regions/RecordSensor.py)
-            'verbosity' : 0,
+            'verbosity' : 1,
 
             # CPU usage encoder.
             'encoders': {
@@ -70,7 +70,7 @@ MODEL_PARAMS = {
         'spParams': {
             # SP diagnostic output verbosity control;
             # 0: silent; >=1: some info; >=2: more info;
-            'spVerbosity' : 0,
+            'spVerbosity' : 1,
 
             'globalInhibition': 1,
 
@@ -120,7 +120,7 @@ MODEL_PARAMS = {
             # TP diagnostic output verbosity control;
             # 0: silent; [1..6]: increasing levels of verbosity
             # (see verbosity in nta/trunk/py/nupic/research/TP.py and TP10X*.py)
-            'verbosity': 0,
+            'verbosity': 1,
 
             # Number of cell columns in the cortical region (same number for
             # SP and TP)
@@ -205,7 +205,7 @@ MODEL_PARAMS = {
 
             # Classifier diagnostic output verbosity control;
             # 0: silent; [1..6]: increasing levels of verbosity
-            'clVerbosity' : 0,
+            'clVerbosity' : 1,
 
             # This controls how fast the classifier learns/forgets. Higher values
             # make it adapt faster and forget older patterns faster.

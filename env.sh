@@ -35,6 +35,7 @@ if [[ -z $_PYTHONPATH ]]; then
   export _PYTHONPATH=$PYTHONPATH
 fi
 
+export NTA="/Users/antoine_chkaiban/Documents/Github_Workspace/nupic/nta/eng"
 export PATH="$NTA/bin:$PATH"
 export PYTHONPATH="$NTA/lib/python$PY_VERSION/site-packages:$PYTHONPATH"
 export NTA_ROOTDIR="$NTA"

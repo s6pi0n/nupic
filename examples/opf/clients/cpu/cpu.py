@@ -33,7 +33,7 @@ from nupic.frameworks.opf.modelfactory import ModelFactory
 
 import model_params
 
-SECONDS_PER_STEP = 2
+SECONDS_PER_STEP = 0.01
 WINDOW = 60
 
 # turn matplotlib interactive mode on (ion)
@@ -84,7 +84,7 @@ def runCPU():
     plt.draw()
     plt.legend( ('actual','predicted') )    
 
-    # Make sure we wait a total of 2 seconds per iteration.
+    # Make sure we wait a total of SECONDS_PER_STEP seconds per iteration.
     try: 
       plt.pause(SECONDS_PER_STEP)
     except:

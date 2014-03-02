@@ -119,3 +119,10 @@ external/common/lib/java/nupic.jar
 # sandboxes
 /sandbox
 /localsandbox
+
+# nupic install
+nta/*
+
+# Ongoing projects
+examples/opf/clients/finance/*
+examples/prediction/data/extra/finance/*
